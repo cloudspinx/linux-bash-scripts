@@ -1,3 +1,4 @@
+#!/bin/bash
 # Update package list
 sudo apt update
 
