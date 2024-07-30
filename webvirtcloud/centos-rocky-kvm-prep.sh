@@ -1,6 +1,6 @@
 #!/bin/bash
 # Update package list
-sudo apt update
+sudo dnf -y update
 
 # Install KVM packages
 sudo dnf install -y libvirt qemu-kvm virt-install virt-top libguestfs-tools guestfs-tools
